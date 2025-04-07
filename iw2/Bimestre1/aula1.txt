@@ -1,0 +1,5 @@
+1 - Declare tres diferentes, sendo uma para cada tipo de dado: String, number e boolean. Em seguida atrivua valores a elas e imprima no  modo de teste(console) as saidas.
+
+2- Declare duas variveis, sendo uma para receber seu primeiro nome e a outra seu sobrenome. Para a sada, imprimir seu nome completo.
+
+3- Declare uma variavel e atribua um numero a ela. Em seguida, reatribua um novo numero a  essa variavel e imprima-os no modo de teste(console)

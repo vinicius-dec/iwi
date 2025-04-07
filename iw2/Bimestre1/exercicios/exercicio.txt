@@ -1,0 +1,9 @@
+1- Imprimir os numeros em ordem decrescente de 10 a 1 
+2- Imprimir os numeros de 1 a 10 na tela (usar o for e while)
+3- Calculando a soma dos numeros de 1 a 10;
+4- Imprimindo os numeros pares de 1 a 10 na tela;
+5- Calculando a soma dos numeros de 1 ate 10 usando loop while
+6- Imprimindo os numeros pares de 1 a 10 na tela usando um loop while
+7- Calcular a tabuada do numero 4 usando while
+8- Imprimir a sequencia se numeros de 1 ate 10; mostrando na tela os valores que sao pares e impares 
+9- Imprimir os numeros em ordem decrescente de 10 a 1
