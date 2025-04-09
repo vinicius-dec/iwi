@@ -1,0 +1,29 @@
+1 Atividade
+
+mkdir cloud-lab
+
+cd cloud-lab
+
+New-item config.txt
+
+New-item data.csv
+
+New-item script.ps1
+
+notepad config.txt
+
+notepad data.csv
+
+notepad script.ps1
+
+Get-ChildItem
+
+Move-Item config.txt config.ini
+
+Get-ChildItem
+
+mkdir -p cloud-lab/subpasta
+
+Copy-Item -Recurse cloud-lab subpasta
+
+Get-ChildItem
