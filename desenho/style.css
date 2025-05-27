@@ -1,0 +1,76 @@
+body{
+    height: 111vh;
+    background: url(/img/fundo.jpg) fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-size: larger;
+    text-align: center;
+ 
+}
+.container{
+    align-items: center;
+    display: block;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 260px;
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+* {
+  padding:0;
+  margin:0;
+}
+
+
+button {
+  padding: 16px 42px;
+  border-radius: 16px;
+  background: #516bfc;
+  text-decoration: none;
+  user-select: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    transform-style: flat;
+    transform: translate3d(-50%,-50%,0);
+    background: rgba(white,.1);
+    border-radius: 100%;
+    transition: width .3s ease, height .3s ease;
+  }
+  &:focus,
+  &:hover {
+      background: darken(#FC6E51,7%);
+  }
+  &:active {
+    &:after {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+h1,h3,p{
+    color: white;
+}
